@@ -1,5 +1,10 @@
 # sqlite-vss
 
+
+> [!WARNING]  
+> `sqlite-vss` is not in active development. Instead, my effort is now going towards [`sqlite-vec`](https://github.com/asg017/sqlite-vec), which is a similar vector search SQLite extension, but should be much easier to install and use than `sqlite-vss`. See [this blog post](https://alexgarcia.xyz/blog/2024/building-new-vector-search-sqlite/index.html) for more info.
+>
+
 `sqlite-vss` (SQLite <b><u>V</u></b>ector <b><u>S</u></b>imilarity <b><u>S</u></b>earch) is a SQLite extension that brings vector search capabilities to SQLite, based on [Faiss](https://faiss.ai/). It can be used to build semantic search engines, recommendations, or questions-and-answering tools.
 
 See [_Introducing sqlite-vss: A SQLite Extension for Vector Search_](https://observablehq.com/@asg017/introducing-sqlite-vss) (February 2023) for more details and a live example!
